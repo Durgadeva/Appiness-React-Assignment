@@ -1,0 +1,74 @@
+.login-page{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  .left-side-content, .right-side-content{
+    flex: 1;
+    height: 100vh;
+  }
+  .left-side-content {
+    .logo {
+      background-image: url("https://d13dtqinv406lk.cloudfront.net/company/images/10342.png");
+      background-size: cover;
+      height: 100vh;
+      background-size: 90%;
+      background-repeat: repeat;
+    }
+  }
+  .right-side-content {
+    background-color: #fff;
+    .right-content-header {
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .title{
+        margin: 0;
+        font-size: 32px;
+        font-weight: 700;
+        color: #000;
+      }
+    }
+    .right-content-form {
+      height: calc(100vh - 80px);
+      display: grid;
+      place-items: center;
+      overflow: auto;
+      form {
+        max-width: 500px;
+        width: 100%;
+        .form-group{
+          margin-bottom: 20px;
+          .form-label {
+            font-size: 18px;
+            letter-spacing: 0.20px;
+            margin: 0 0 8px;
+          }
+          .form-input, .MuiFormControl-root {
+            width: 100%;
+          }
+          .error-text {
+            color: #f44336;
+            margin: 0;
+            font-size: 0.75rem;
+            margin-top: 3px;
+            font-weight: 400;
+            line-height: 1.66;
+            letter-spacing: 0.03333em;
+          }
+          .Mui-error {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
